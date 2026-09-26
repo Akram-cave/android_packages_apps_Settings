@@ -52,4 +52,9 @@
         android:key="power_button_instantly_locks"
         android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" />
 
+    <lineageos.preference.SecureSettingSwitchPreference
+        android:key="enable_lockscreen_quick_settings"
+        android:title="@string/lockscreen_quick_settings_title"
+        android:summary="@string/lockscreen_quick_settings_summary"
+        android:defaultValue="true" />
 </PreferenceScreen>

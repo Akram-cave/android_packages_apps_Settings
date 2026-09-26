@@ -120,4 +120,10 @@
         android:key="lock_settings_footer"
         settings:searchable="false"/>
 
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="enable_lockscreen_quick_settings"
+            android:title="@string/lockscreen_quick_settings_title"
+            android:summary="@string/lockscreen_quick_settings_summary"
+            android:defaultValue="true" />
+
 </PreferenceScreen>
